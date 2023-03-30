@@ -377,7 +377,8 @@ gameInfo.addEventListener("click", function()
         $popupline1.text("Or at least, it used to be until this beast showed up.")
         $poppic.prop("src", `gallery/PawAllen.jpg`); 
         $popupline2.text("Today is a nice sunny day, but between you and your favourite sunbeam stands the horrible Hazel." + "\n" + "Out-roll the beastie to reclaim your spot!" + "\n" + "Rules : Two dice are rolled, and their sums are added provided neither shows a 1. If two dice show the same value, multiply their sum by 2!");
-    reset1.style.visibility = "hidden";
+        reset1.style.visibility = "hidden";
+        closed1.innerText = "Close";
         $popup.css("background-color", "black") 
         $show.toggle("show");
         $popup.prop("display", "block");
