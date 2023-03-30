@@ -317,7 +317,7 @@ closed1.addEventListener("click", function()
     
 });
 
-
+//popup reset button
 reset1.addEventListener("click", function()
 {
     $show.toggle("placeholder");
@@ -341,6 +341,7 @@ reset1.addEventListener("click", function()
     $hazeldice2.prop("src", `gallery/dice-six-faces-${roundNumber}.png`);
 });
 
+//main reset button
 reset.addEventListener("click", function()
 {
     
@@ -365,7 +366,7 @@ reset.addEventListener("click", function()
    
 });
 
-
+//closes popup
 closed1.addEventListener("click", function()
 {
    
@@ -374,7 +375,7 @@ closed1.addEventListener("click", function()
 
 
 /**
- * sets timeout function to show popup after "delay", or 3000 ms. 
+ * Displays popup
  */
 gameInfo.addEventListener("click", function()
     {
@@ -388,13 +389,6 @@ gameInfo.addEventListener("click", function()
     }
 );
 
-//just a tester. 
-// function slideShow(img)
-// {
-//     var image;
-//     image = img.prop("src");
-//     alert(image);
-// }
 
 
 
